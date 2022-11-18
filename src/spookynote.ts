@@ -5,8 +5,7 @@ export function SpookyNote(tStart: number, tEnd: number, NumberOfNote: number){
         const ScaryNote = new Note(tStart, tEnd)
         ScaryNote.type = 1
         ScaryNote.animate.definitePosition = [10, 10, 10]
-        ScaryNote.color = [0.26666666666666666,0.25882352941176473,0.27450980392156865]
-        ScaryNote.push(true)
+        ScaryNote.push(true, true)
     }
 }
 
